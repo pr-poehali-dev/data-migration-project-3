@@ -1,25 +1,25 @@
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Анна Ковальская",
-      role: "Исполнительный ассистент в TechFlow Solutions",
+      name: "Марина Соколова",
+      role: "Учитель физики, гимназия №14, Екатеринбург",
       image: "/professional-woman-headshot.png",
       quote:
-        "Структурированный подход к изучению инструментов управления проектами - именно то, что мне было нужно. Через два месяца я получила удаленную работу в tech-стартапе.",
+        "После курса перестроила подготовку к ЕГЭ полностью. Средний балл моих учеников вырос с 58 до 74 за один год. Методики реально работают!",
     },
     {
-      name: "Максим Волков",
-      role: "VA в Stellar Analytics",
+      name: "Андрей Петров",
+      role: "Учитель математики, школа №102, Казань",
       image: "/professional-man-headshot.png",
       quote:
-        "Коучинг помог мне обрести уверенность в общении с клиентами. Сейчас я веду аккаунты сразу трех компаний одновременно.",
+        "Наконец понял, как разбирать задания второй части с учениками. Курс дал конкретные алгоритмы, а не общие слова. Очень практично.",
     },
     {
-      name: "Елена Родригес",
-      role: "Фриланс VA, Alpine Ventures",
+      name: "Ольга Никитина",
+      role: "Учитель информатики, лицей №7, Новосибирск",
       image: "/professional-woman-smiling.png",
       quote:
-        "Практические упражнения и реальные кейсы подготовили меня ко всему. Удержание клиентов значительно выросло после прохождения программы.",
+        "Прошла курс онлайн без отрыва от работы. Удостоверение пришло быстро, всё официально. Буду рекомендовать коллегам.",
     },
   ]
 
@@ -28,7 +28,7 @@ export function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-accent font-semibold text-sm uppercase tracking-wide">Истории успеха</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">Отзывы наших учеников</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 text-balance">Отзывы педагогов</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
